@@ -4,53 +4,37 @@
 @import 'libs/skel';
 
 /*
-	Multiverse by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Panel */
+/* Wrapper */
 
-	.panel {
-		> .inner {
-			&.split {
-				&:after {
-					clear: both;
-					content: '';
-					display: block;
-				}
+	#wrapper {
+		opacity: 1;
+	}
 
-				> div {
-					float: left;
-					margin-left: 0;
-					padding-left: 0;
-				}
+/* Overlay */
 
-				> :first-child {
-					padding-left: 0;
-				}
+	#overlay {
+		opacity: 1;
+	}
+
+/* Header */
+
+	#header {
+		opacity: 1;
+
+		nav {
+			li {
+				opacity: 1;
 			}
 		}
 	}
 
-/* Wrapper */
+/* Footer */
 
-	#wrapper {
-		&:before {
-			display: none;
-		}
-	}
-
-/* Main */
-
-	#main {
-		&:after {
-			clear: both;
-			content: '';
-			display: block;
-		}
-
-		.thumb {
-			float: left;
-		}
+	#footer {
+		background-image: url('images/ie/footer.svg');
 	}

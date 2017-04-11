@@ -1,47 +1,26 @@
 /*
-	Multiverse by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Button */
+/* Header */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: solid 2px #36383c;
+	#header nav a {
+		position: relative;
+		border: solid 1px #fff;
+		border-radius: 100%;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
+		#header nav a:before {
 			border: 0;
 		}
 
-/* Panel */
+/* Footer */
 
-	.panel {
-		background: #242629;
-		display: none;
-	}
-
-		.panel.active {
-			display: block;
-		}
-
-		.panel > .closer:before {
-			content: '\00d7';
-			font-size: 42px;
-		}
-
-/* Main */
-
-	#main .thumb > h2 {
-		text-align: center;
-		width: 100%;
-		left: 0;
+	#footer {
+		background-image: url("images/ie/footer.png");
+		background-position: bottom left;
+		background-repeat: repeat-x;
 	}
