@@ -1,3 +1,2 @@
 # WebSource
-Websouce of Recyxle
-This is just my personal website to replace my current <i><a href=http://recyxlestudios.yolasite.com>"recyxlestudios.yolasite.com</a></i>
+This is where the batch files page is located, design is by <i><a href="http://html5up.net">HTML5UP</a></i>
